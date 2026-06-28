@@ -2,6 +2,11 @@
 
 All notable changes to dao-skill will be documented in this file.
 
+## [v1.6.5] - 2026-06-28
+
+### Changed
+- README 全面重写：哲学根基、道法术器架构、sun skill 的哲学内涵与实践映射、完整项目结构说明
+
 ## [v1.6.4] - 2026-06-28
 
 ### Added
