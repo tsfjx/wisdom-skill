@@ -20,3 +20,8 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - 版本自动增长规则从 SKILL.md 移至项目级 CLAUDE.md（合规：skill 不应管理项目版本）
 - 新增项目级 CLAUDE.md：版本规则 + Git 工作流规范
+
+## [v1.6.3] - 2026-06-28
+
+### Added
+- README 一行安装命令：clone + 创建目录 + 注入 CLAUDE.md 引用（幂等）
