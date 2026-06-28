@@ -84,6 +84,20 @@ done
 
 # 创建 dao-sun 所需的运行时目录
 mkdir -p "${HOME}/.claude/rules" "${HOME}/.knowledge/raw" "${HOME}/.knowledge/archived"
+
+# 写入默认种子规则（仅在规则文件不存在时写入，不覆盖已有规则）
+RULES_FILE="${HOME}/.claude/rules/core-wisdom.md"
+if [ ! -f "${RULES_FILE}" ]; then
+  cat > "${RULES_FILE}" << 'RULES'
+# Core-Wisdom — 全局规则（≤30行）
+
+<!-- meta: category=workflow | hit=1 | last=2026-06-28 | projects=1 -->
+- 修改任何代码前，先通读所有相关文件，用第一性原理拆到根因。方案需引用官方文档、源码或已验证先例作为依据，再设验证标准后实施。不片段改码、不凭猜测。Why: 片段式修改造成不一致和隐藏 bug；边改边试错消耗信任。
+RULES
+  echo "  ✓ 默认种子规则已写入"
+else
+  echo "  ✓ 规则文件已存在，保留不覆盖"
+fi
 echo "  ✓ 运行时目录已就绪"
 
 echo "☯  完成！已安装 ${INSTALLED} 个 skill"
