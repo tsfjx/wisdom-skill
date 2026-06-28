@@ -43,6 +43,14 @@ v{年偏移}.{月份}.{当月序号}
 - 提交信息格式：`v{版本号}: {简短描述}`
 - CHANGELOG.md 同步更新
 
+### 发布 Release
+
+每次需要发布到 GitHub Releases 时：
+
+1. `git tag v{版本号} && git push origin v{版本号}`
+2. 用 `dist/` 下的构建脚本打包 `.zip`
+3. 在 GitHub Releases 页面创建 Release，选择对应 tag，上传 `.zip`
+
 ## 文件结构
 
 ```
