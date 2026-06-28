@@ -3,13 +3,15 @@ name: dao-sun
 description: 将开发经验蒸馏为 AI 自动遵循的规则。纠错型 + 偏好型双轨采集，规则自动注入上下文，让 AI 越用越懂你。
 ---
 
-# Wisdom — AI 经验蒸馏
+# dao-sun — 日损·经验蒸馏
+
+> 为学日益，为道日损。损之又损，以至于无为。
 
 ## 核心理念
 
 > **同一个坑，AI 反复踩。你纠正了，换个项目它又犯。**
 
-Wisdom 做两件事：
+dao-sun 做两件事：
 1. 把你的纠错和偏好固化为规则
 2. 让规则自动注入 AI 上下文，下次不再犯错
 
@@ -22,7 +24,7 @@ Wisdom 做两件事：
 
 ## 规则生效机制
 
-Wisdom 生成的规则写入 `~/.claude/rules/core-wisdom.md`，Claude Code 会自动将此文件注入每次会话的系统指令——**AI 无法忽略，无需手动加载。**
+dao-sun 生成的规则写入 `~/.claude/rules/core-wisdom.md`，Claude Code 会自动将此文件注入每次会话的系统指令——**AI 无法忽略，无需手动加载。**
 
 CLAUDE.md 中已包含指令：
 
@@ -146,7 +148,7 @@ Step 5: 写入 → 备份 → 写入 ~/.claude/rules/core-wisdom.md → 归档 r
 ├── rules/
 │   └── core-wisdom.md              # Wisdom 生成的规则，自动注入 AI 上下文
 └── skills/
-    └── wisdom/SKILL.md             # 本 Skill
+    └── sun/SKILL.md                # 本 Skill（name: dao-sun）
 
 ~/.knowledge/
 ├── raw/                            # 原始经验记录

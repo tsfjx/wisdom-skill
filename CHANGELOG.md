@@ -2,6 +2,13 @@
 
 All notable changes to dao-skill will be documented in this file.
 
+## [v1.6.7] - 2026-06-28
+
+### Fixed
+- SKILL.md 标题和正文中 `Wisdom` → `dao-sun`，目录路径 `wisdom/` → `sun/`
+- plugin.json / marketplace.json 版本号同步为 v1.6.7
+- keywords 补充 `dao`、`sun`、`道德经` 标签
+
 ## [v1.6.6] - 2026-06-28
 
 ### Changed
