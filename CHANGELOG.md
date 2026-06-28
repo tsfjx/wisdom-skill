@@ -2,6 +2,13 @@
 
 All notable changes to dao-skill will be documented in this file.
 
+## [v1.6.6] - 2026-06-28
+
+### Changed
+- Skill 命名统一规范：`dao-{概念}` — SKILL.md `name: dao-sun`，plugin.json `name: dao-sun`
+- 命名规范：`dao-` 前缀区分社区其他 skill，`{概念}` 取道德经哲学关键词
+- README 同步更新命名引用
+
 ## [v1.6.5] - 2026-06-28
 
 ### Changed

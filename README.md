@@ -25,11 +25,11 @@
 
 ## 已有 Skill
 
-| Skill | 道德经 | 哲学内涵 | 实践功能 |
-|-------|--------|---------|---------|
-| [sun](./skills/sun/) | 第48章·日损 | **为道日损，去繁就简** | 经验蒸馏——将开发中的错误和偏好自动采集、提炼为规则，AI 自动遵循 |
+| Skill | 目录 | 道德经 | 哲学内涵 | 实践功能 |
+|-------|------|--------|---------|---------|
+| `dao-sun` | [sun](./skills/sun/) | 第48章·日损 | **为道日损，去繁就简** | 经验蒸馏——将开发中的错误和偏好自动采集、提炼为规则，AI 自动遵循 |
 
-### sun（日损·经验蒸馏）
+### dao-sun（日损·经验蒸馏）
 
 「为学日益，为道日损」——求学是每天增加知识，修道是每天减少妄为。
 
@@ -56,9 +56,9 @@ dao-skill/                          ← 道的容器——所有 Skill 的集合
 │
 └── skills/                         ← 每个 Skill 独立目录，互不干扰
     └── sun/                        ← 日损·经验蒸馏
-        ├── SKILL.md                ← Skill 定义（name: wisdom）
+        ├── SKILL.md                ← Skill 定义（name: dao-sun）
         └── .claude-plugin/
-            └── plugin.json         ← 插件元数据（name: sun）
+            └── plugin.json         ← 插件元数据（name: dao-sun）
 ```
 
 **设计原则：**
@@ -82,7 +82,7 @@ dao-skill/                          ← 道的容器——所有 Skill 的集合
 
 ```
 /plugin marketplace add tsfjx/dao-skill
-/plugin install sun@dao-skill
+/plugin install dao-sun@dao-skill
 ```
 
 ### 方式二：终端一行命令

@@ -1,5 +1,5 @@
 ---
-name: wisdom
+name: dao-sun
 description: 将开发经验蒸馏为 AI 自动遵循的规则。纠错型 + 偏好型双轨采集，规则自动注入上下文，让 AI 越用越懂你。
 ---
 
