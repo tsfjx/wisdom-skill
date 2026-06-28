@@ -108,6 +108,18 @@ curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | b
 curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | bash -s sun
 ```
 
+**卸载：**
+
+```bash
+# 只卸载 dao-sun
+curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/uninstall.sh | bash -s sun
+
+# 卸载全部（含仓库缓存）
+curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/uninstall.sh | bash
+```
+
+卸载只移除 skill 文件，运行时数据（`~/.claude/rules/` `~/.knowledge/`）保留，需手动清理。
+
 ---
 
 ## 贡献
