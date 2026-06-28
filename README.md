@@ -19,6 +19,16 @@
 |-------|-----------|------|
 | [sun](./skills/sun/) | 日损 — 为道日损，去繁就简 | 经验蒸馏：采集 → 提炼 → 自动注入规则 |
 
+## 安装
+
+```bash
+# 一行安装全部 skill
+curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | bash
+
+# 只安装 sun（日损·经验蒸馏）
+curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | bash -s sun
+```
+
 ## 结构
 
 ```
