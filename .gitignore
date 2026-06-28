@@ -3,4 +3,5 @@ Thumbs.db
 *.tmp
 *.swp
 ~*
+dist/
 项目评估报告.md
