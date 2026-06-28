@@ -21,11 +21,28 @@
 
 ## 安装
 
+### 方式一：Claude Code 内一键安装（推荐）
+
+在 Claude Code 中输入：
+
+```
+帮我安装 sun skill
+```
+
+或手动执行命令：
+
+```
+/plugin marketplace add tsfjx/dao-skill
+/plugin install sun@dao-skill
+```
+
+### 方式二：终端一行命令
+
 ```bash
-# 一行安装全部 skill
+# 安装全部 skill
 curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | bash
 
-# 只安装 sun（日损·经验蒸馏）
+# 只安装 sun
 curl -fsSL https://raw.githubusercontent.com/tsfjx/dao-skill/main/install.sh | bash -s sun
 ```
 

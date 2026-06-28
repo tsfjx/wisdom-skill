@@ -2,6 +2,12 @@
 
 All notable changes to dao-skill will be documented in this file.
 
+## [v1.6.4] - 2026-06-28
+
+### Added
+- `.claude-plugin/marketplace.json` — 支持 `/plugin install sun@dao-skill` 一键安装
+- README 添加 Claude Code 内 `/plugin` 安装方式（方式一：AI 对话或命令）
+
 ## [v1.6.3] - 2026-06-28
 
 ### Added
