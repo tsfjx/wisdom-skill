@@ -1,4 +1,4 @@
-# Wisdom Skill 项目级 CLAUDE.md
+# Dao Skill 项目级 CLAUDE.md
 
 ## 版本自动增长规则
 
@@ -31,13 +31,17 @@ v{年偏移}.{月份}.{当月序号}
 ## 文件结构
 
 ```
-wisdom-skill/
+dao-skill/
 ├── CLAUDE.md              # 本项目开发规范（本文件）
 ├── README.md              # 仓库首页
 ├── LICENSE                # MIT
 ├── CHANGELOG.md           # 版本记录
 ├── .gitignore
 └── skills/
-    └── wisdom/
-        └── SKILL.md       # Wisdom Skill 主入口
+    └── sun/               # 日损·经验蒸馏 (wisdom)
+        ├── SKILL.md       # Skill 主入口
+        └── .claude-plugin/
+            └── plugin.json
 ```
+
+每个 skill 独立文件夹管理，以道德经哲学概念命名目录。
