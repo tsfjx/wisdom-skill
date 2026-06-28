@@ -25,3 +25,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - README 一行安装命令：clone + 创建目录 + 注入 CLAUDE.md 引用（幂等）
+
+## [v1.6.4] - 2026-06-28
+
+### Added
+- `.claude-plugin/plugin.json` — 社区标准插件元数据，支持 .skill 打包分发
