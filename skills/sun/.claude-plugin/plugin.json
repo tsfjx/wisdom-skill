@@ -11,8 +11,8 @@
   "license": "MIT",
   "keywords": ["dao", "sun", "wisdom", "experience", "knowledge", "rules", "蒸馏", "经验", "道德经"],
   "commands": [
-    "./commands/evolve.md",
-    "./commands/rules.md"
+    "./commands/dao-evolve.md",
+    "./commands/dao-rules.md"
   ],
   "claudeCode": {
     "minVersion": "1.0.0"

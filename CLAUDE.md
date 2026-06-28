@@ -44,8 +44,8 @@ dao-skill/
     └── sun/               # 日损·经验蒸馏（源目录）
         ├── SKILL.md       # Skill 主入口（name: dao-sun）
         ├── commands/
-        │   ├── evolve.md  # /evolve 命令
-        │   └── rules.md   # /rules 命令
+        │   ├── dao-evolve.md  # /dao-evolve 命令
+        │   └── dao-rules.md   # /dao-rules 命令
         └── .claude-plugin/
             └── plugin.json
 ```

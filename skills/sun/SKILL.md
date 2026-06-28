@@ -36,8 +36,8 @@ Claude Code 启动时自动递归加载 `~/.claude/rules/*.md` 中的所有 mark
 |------|--------|--------|
 | **采集-纠错** | "记住这个解法"、"记下来" | 从会话提取 错误+解法+原因 → 写入 raw/ |
 | **采集-偏好** | "以后默认用"、"记住我的偏好"、"我的习惯是" | 从会话提取 场景+偏好选择 → 写入 raw/ |
-| **进化** | `/evolve` | raw/ 中同类经验聚类 → 提炼为通用规则 → 写入 `~/.claude/rules/core-wisdom.md` |
-| **查询** | `/rules` | 展示当前所有规则 |
+| **进化** | `/dao-evolve` | raw/ 中同类经验聚类 → 提炼为通用规则 → 写入 `~/.claude/rules/core-wisdom.md` |
+| **查询** | `/dao-rules` | 展示当前所有规则 |
 
 ---
 
@@ -85,7 +85,7 @@ Claude Code 启动时自动递归加载 `~/.claude/rules/*.md` 中的所有 mark
 
 ---
 
-## 进化模式 (/evolve)
+## 进化模式 (/dao-evolve)
 
 扫描 `~/.knowledge/raw/`，按 `error_signature`/`scenario` 分组。对每类高频经验（≥2 次）提炼一条规则。
 
@@ -132,7 +132,7 @@ Step 5: 写入 → 备份 → 写入 ~/.claude/rules/core-wisdom.md → 归档 r
 
 ---
 
-## 查询模式 (/rules)
+## 查询模式 (/dao-rules)
 
 直接展示 `~/.claude/rules/core-wisdom.md` 的内容。
 

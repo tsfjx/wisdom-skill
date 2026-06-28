@@ -44,7 +44,7 @@
 **它怎么做：**
 
 1. **采集** — 对 AI 说「记住这个解法」，自动记录错误特征和解决方案
-2. **提炼** — 执行 `/evolve`，同类经验自动聚类，生成 If-Then 规则
+2. **提炼** — 执行 `/dao-evolve`，同类经验自动聚类，生成 If-Then 规则
 3. **生效** — 规则写入 `~/.claude/rules/core-wisdom.md`，Claude Code 启动时自动加载——**原生支持，非黑科技**
 
 **哲学映射：**
@@ -73,8 +73,8 @@ dao-skill/
     └── sun/                   # 日损（源目录）
         ├── SKILL.md           # Skill 定义（name: dao-sun）
         ├── commands/
-        │   ├── evolve.md      # /evolve 命令
-        │   └── rules.md       # /rules 命令
+        │   ├── dao-evolve.md  # /dao-evolve 命令
+        │   └── dao-rules.md   # /dao-rules 命令
         └── .claude-plugin/
             └── plugin.json    # 插件元数据（name: dao-sun）
 ```
